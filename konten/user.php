@@ -37,7 +37,7 @@
             <th>Aksi</th>
           </thead>
           <?php
-            $sql="SELECT * FROM user WHERE dihapus_pada IS NULL";
+            $sql="SELECT * FROM user";
             $query=mysqli_query($koneksi,$sql);
             while($kolom=mysqli_fetch_array($query)){
               ?>
@@ -167,7 +167,7 @@
             <th>Aksi</th>
           </thead>
           <?php
-            $sql="SELECT * FROM user WHERE dihapus_pada IS NOT NULL";
+            $sql="SELECT * FROM user";
             $query=mysqli_query($koneksi,$sql);
             while($kolom=mysqli_fetch_array($query)){
               ?>
