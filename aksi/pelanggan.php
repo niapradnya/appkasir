@@ -18,17 +18,17 @@ if($_POST){
     header('location:../index.php?p=pelanggan');
     }
     else if($_POST['aksi']=='ubah'){
-    $id_user=$_POST['id_user'];
+    $id_user=$_SESSION['id'];
     $PelangganID=$_POST['PelangganID'];
     $NamaPelanggan=$_POST['NamaPelanggan'];
     $Alamat=$_POST['Alamat'];
     $NomorTelepon=$_POST['NomorTelepon'];
         
-       $sql="UPDATE pelanggan SET NamaPelanggan='$NamaPelanggan', Alamat='$Alamat', NomorTelepon='$NomorTelepon',  WHERE PelangganID=$PelangganID";
+       $sql="UPDATE pelanggan SET NamaPelanggan='$NamaPelanggan', Alamat='$Alamat', NomorTelepon='$NomorTelepon'  WHERE PelangganID=$PelangganID";
         // echo $sql; // Cek perintah
         mysqli_query($koneksi,$sql);
         notifikasi($koneksi);
-        header('location:../index.php?p=Pelanggan');
+        header('location:../index.php?p=pelanggan');
     }
 }
 

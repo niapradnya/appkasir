@@ -26,7 +26,6 @@
          <h5>Data Produk</h5>
       </div>
       <div class="card-body">
-        <button class="btn bg-purple mb-2" data-toggle="modal" data-target="#modalRecycleBin">  <i class="fas fa-recycle"></i> Recycle Bin </button>
         <table id="example1" class="table table-hover">
           <thead class="bg-purple">
             <th>ID</th>
@@ -88,9 +87,6 @@
           >Simpan</i></button>
         </form>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
     </div>
   </div>
 </div>
@@ -139,11 +135,7 @@
           >Simpan</i></button>
         </form>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
     </div>
   </div>
 </div>
 
-<!-- Modal Recycle Bin -->

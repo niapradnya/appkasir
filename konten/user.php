@@ -89,9 +89,6 @@
           >Simpan</i></button>
         </form>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
     </div>
   </div>
 </div>
@@ -139,10 +136,6 @@
           <button type="submit" class="btn btn-block bg-purple mt-3"> <i class="fas fa-save"
           >Simpan</i></button>
         </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
       </div>
     </div>
   </div>
